@@ -1,0 +1,33 @@
+{
+  "name": "wizad/doctrine-oci8-french-driver-bundle",
+  "type": "symfony-bundle",
+  "description": "French driver to connect to an french installed oracle database",
+  "keywords": ["Oracle Doctrine "],
+  "homepage": "http://github.com/wizad/doctrine-oci8-french-driver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Pottier",
+      "email": "developer@william-pottier.fr"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9 || ^7.0",
+    "symfony/symfony": ">3.0",
+    "doctrine/orm": "~2.5",
+    "wizad/doctrine-oci8-french-driver": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wizad\\DoctrineOci8FrenchDriverBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
