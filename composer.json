@@ -15,7 +15,7 @@
     "php": "^5.5.9 || ^7.0",
     "symfony/symfony": ">3.0",
     "doctrine/orm": "~2.5",
-    "wizad/doctrine-oci8-french-driver": "^0.1"
+    "wizad/doctrine-oci8-french-driver": "^0.2"
   },
   "autoload": {
     "psr-4": {
